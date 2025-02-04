@@ -1,7 +1,12 @@
 # system_of_logo_recognition
 My recognition system of logos of companies
 Для создания системы, которая будет определять, является ли логотип на изображении логотипом искомой организации, можно использовать подходы глубокого обучения и компьютерного зрения. Ниже представлено описание системы и пример кода на Python.
-Описание системы
+# Описание системы
+![alt text](https://github.com/MarkusDarkus/system_of_logo_recognition/blob/main/Unknown.png)
+![alt text](https://github.com/MarkusDarkus/system_of_logo_recognition/blob/main/pre-sekret-logotipa-starbucks-kotoryj-vy-veroyatno-nikogda-ne-zamechali.jpg)
+```
+Логотип совпадает с эталоном! Координаты: (274, 37), (891, 679)
+```
 # Код системы в файле main.py
 ## 1. Сбор данных
 Система должна начинаться с создания набора данных, содержащего образцы логотипов искомых организаций. Эти логотипы могут быть как текстовыми, так и нетекстовыми, и должны быть представлены в различных масштабах и условиях освещения.
